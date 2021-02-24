@@ -19,7 +19,7 @@ public class App
         // Extract employee salary information if title is engineer
         ArrayList<Employee> employees2 = a.getAllSalariesByRole();
         // Output to user for clarity
-        System.out.println("Sample of salaries for the role 'Engineer'\n'");
+        System.out.println("Sample of salaries for the role 'Engineer'\n");
         a.printSalaries(employees2);
         // Test the size of the returned data - should be 5
         System.out.println(employees.size());
